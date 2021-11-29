@@ -33,9 +33,11 @@ abstract class WordRoomDatabase : RoomDatabase() {
                     wordDao.insert(word)
                     word = Word("World!")
                     wordDao.insert(word)
-
-                    // TODO: Add your own words!
-                    word = Word("TODO!")
+                    word = Word("Motorbike")
+                    wordDao.insert(word)
+                    word = Word("Cold")
+                    wordDao.insert(word)
+                    word = Word("Notebook")
                     wordDao.insert(word)
                 }
             }
